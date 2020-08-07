@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <link rel="stylesheet" href="./cookiepopup.css">
+</head>
+
+<body>
+    <header>
+        <h1>Test Page</h1>
+    </header>
+    <script src="./cookiepopup.js"></script>
+    <script>
+        createCookiePopup({
+            type: "bottom",
+            background: "#000",
+            textColor: "#fff",
+            text: "Bu siteyi kullanarak, sitede çerezlerin kullanılmasını kabul etmiş olursunuz. Çerezleri sadece trafiği analiz etmek için kullanırız.",
+            buttonBackground: "#ff0000",
+            buttonTextColor: "#fff",
+            buttonText: "Kabul Et"
+        });
+    </script>
+</body>
+
+</html>

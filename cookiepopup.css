@@ -1,0 +1,49 @@
+/* CookiePopupJS v1.0.0 | github.com/umitbilgin/cookiepopupjs */
+
+#cookiePolicyPopup.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: .3s all;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 999999999999999999;
+}
+
+#cookiePolicyPopup.bottom.active {
+    opacity: 1;
+    pointer-events: visible;
+}
+
+#cookiePolicyPopup.bottom .cookieText {
+    padding-right: 25px;
+}
+
+#cookiePolicyPopup.bottom button#acceptCookie {
+    border: none;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    #cookiePolicyPopup.bottom {
+        padding: 15px 20px;
+    }
+
+    #cookiePolicyPopup.bottom .cookieText {
+        padding-right: 0;
+        flex: 0 0 100%;
+        margin-bottom: 20px;
+    }
+
+    #cookiePolicyPopup.bottom button#acceptCookie {
+        flex: 0 0 100%;
+        width: 100%;
+    }
+}
