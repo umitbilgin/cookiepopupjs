@@ -1,6 +1,6 @@
 # CookikePopupJS
 
-Simple cookike popup builder
+Simple cookie popup builder
 
 # Usage
 
