@@ -6,7 +6,7 @@ Simple cookie popup builder
 
 ````html
 <link rel="stylesheet" href="/dist/cookiepopup.min.css">
-<script src="./dist/cookiepopup.min.js"></script>
+<script src="/dist/cookiepopup.min.js"></script>
 ````
 
 ````javascript
